@@ -355,7 +355,7 @@ const langManager = {
     per: 'fa',        // 波斯语
     // from、to 源语言、目标语言
     from: {auto: '自动检测'},
-    to: {'zh-Hans': '简体中文', 'en': '英语',},
+    to: {'zh-Hant': '繁体中文', 'en': '英语',},
     // 解析语言种类
     parseLanguage(language) {
         return langManager[language] || language || 'en';
