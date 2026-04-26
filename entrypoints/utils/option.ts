@@ -221,7 +221,7 @@ export const options = {
     ],
     form: [{value: "auto", label: "自动检测"}],
     to: [
-        {value: "zh-Hans", label: "中文"},
+        {value: "zh-Hant", label: "中文"},
         {value: "en", label: "英语"},
         {value: "ja", label: "日语"},
         {value: "ko", label: "韩语"},
@@ -391,7 +391,7 @@ export const options = {
 export const defaultOption = {
     on: true,
     from: "auto",
-    to: "zh-Hans",
+    to: "zh-Hant",
     style: 1,
     display: 1,
     hotkey: "Control",
